@@ -56,6 +56,12 @@ operators:
 #     env:
 #     - name: DISABLE_DEFAULT_ARGOCD_INSTANCE
 #       value: "true"
+  - name: strimzi-cluster-operator
+    channel: stable
+    installPlanApproval: Manual
+    source: community-operators
+    sourceNamespace: openshift-marketplace
+    csv: strimzi-cluster-operator.v0.44.0
 
 # configuration for control of OperatorGroups
 operatorGroups:
