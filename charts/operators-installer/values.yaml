@@ -70,6 +70,8 @@ operatorGroups:
 #   createNamespace:
 #   targetOwnNamespace:
 #   otherTargetNamespaces:
+  - name: strimzi-cluster-operator
+    createNamespace: true
 
 # EXAMPLE: adding OperatorGroup to Helm .Release.Namespace
 # - createNamespace:
