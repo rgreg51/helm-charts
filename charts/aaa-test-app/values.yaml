@@ -1,1 +1,8 @@
 namespace: aaa-test
+deploymentName: hello-world
+deploymentReplicas: 1
+deploymentImage: registry.access.redhat.com/ubi8/ubi-minimal:latest
+requestsMemory: 64Mi
+requestsCPU: 100m
+limitsMemory: 128Mi
+limitsCPU: 200m
