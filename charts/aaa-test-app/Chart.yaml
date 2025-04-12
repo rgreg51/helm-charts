@@ -1,0 +1,8 @@
+apiVersion: v2
+name: aaa-test-app
+description: A Helm chart to create a test app
+type: application
+version: 0.0.1
+appVersion: 1.0.0
+home: https://github.com/rgreg51/helm-charts
+icon: https://avatars3.githubusercontent.com/u/38202270?s=280&v=4
